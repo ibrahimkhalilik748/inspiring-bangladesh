@@ -11,10 +11,10 @@ const Navigation = () => {
                     <Link className="fs-5 fw-bolder" to="/">Inspiring Bangladesh</Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className=" me-auto">
-                            <Link to="/video1">Video 1</Link>
-                            <Link to="/video2">Video 2</Link>
-                            <Link to="/video3">Video 3</Link>
+                        <Nav className="float">
+                            <Link to="/Option1">Option 1</Link>
+                            <Link to="/Option2">Option 2</Link>
+                            <Link to="/Option3">Option 3</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

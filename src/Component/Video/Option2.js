@@ -1,4 +1,6 @@
 import React from 'react';
+import './Options.css';
+
 
 const Video2 = () => {
     return (

@@ -7,10 +7,9 @@ import {
   Link
 } from "react-router-dom";
 import Navigation from './Component/Navigation/Navigation';
-import Video from './Component/Video/Video';
-import Video1 from './Component/Video/Video1';
-import Video2 from './Component/Video/Video2';
-import Video3 from './Component/Video/Video3';
+import Option1 from './Component/Video/Option1';
+import Option2 from './Component/Video/Option2';
+import Option3 from './Component/Video/Option3';
 
 function App() {
   return (
@@ -21,16 +20,16 @@ function App() {
 
           <Switch>
             <Route exact path="/">
-              <Video1></Video1>
+              <Option1></Option1>
             </Route>
-            <Route path="/video1">
-              <Video1></Video1>
+            <Route path="/Option1">
+              <Option1></Option1>
             </Route>
-            <Route path="/video2">
-              <Video2></Video2>
+            <Route path="/Option2">
+              <Option2></Option2>
             </Route>
-            <Route path="/video3">
-              <Video3></Video3>
+            <Route path="/Option3">
+              <Option3></Option3>
             </Route>
           </Switch>
         </div>
